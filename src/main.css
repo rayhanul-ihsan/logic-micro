@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #6DA4AA;
+    --secondary-color: #dc3545;
+    --color-text: #231942;
+    --navbar-color: #ffffff;
+    --navbar-color-text: #000000;
+}
+
+.nav{
+    background-color: var(--primary-color);
+}
+
+.nav a{
+    color: var(--navbar-color);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    color: var(--navbar-color-text);
+}
+
+
+.body-home{
+    height: 2000px;
+    background-color: gray;
+}
+
+.input{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+/* countDuration */
+
+.input-count{
+    width: 40%;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+
+/* countDuration */
+
+
+/* currency */
+.input-money{
+    width: 40%;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.input-select{
+    width: 6%;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+/* currency */
+
+/* mobile legend */
+.input-ml{
+    width: 30%;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    
+}
+/* mobile legend */
+
+/* word scramble */
+.input-word{
+    width: 45%;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    
+}
+/* word scramble */
