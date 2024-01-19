@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import NavbarComp from './components/NavbarComp'
 
-import Home from './pages/home'
+import Home from './pages/Home'
 import CountDuration from './pages/CountDuration'
 import CurrencyConvert from './pages/CurrencyConvert'
 import MobileLegend from './pages/MobileLegend'
