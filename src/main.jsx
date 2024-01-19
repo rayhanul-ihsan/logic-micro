@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 
-import './css/main.css';
+import './main.css';
 import './bootstrap/css/bootstrap.min.css';
 
 import { BrowserRouter } from 'react-router-dom';
